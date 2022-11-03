@@ -21,7 +21,7 @@ public class ProfeArray0Al9 {
     public static  void mostrarArray(int lista[]){
         int suma=0;
         for (int i=0; i< lista.length; i++){
-            suma+=lista[i];
+            suma=lista[i];
             System.out.println("El índice " +i+ "contiene el valor " +lista[i]);
         }
         System.out.println("La suma es" + suma);
